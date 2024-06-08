@@ -1,0 +1,16 @@
+{
+  "name": "be-my-date",
+  "version": "1.0.0",
+  "description": "Date app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "build:server": "pnpm --filter server build",
+    "build:app": "pnpm --filter app build",
+    "start:server": "pnpm --filter server start:prod",
+    "start:app": "pnpm --filter app start"
+  },
+  "keywords": [],
+  "author": "Lívia Devolder",
+  "license": "ISC"
+}
